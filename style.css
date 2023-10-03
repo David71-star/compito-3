@@ -2,7 +2,6 @@ body{
     background-color: black;
 }
 .container-lamborghini{
-    background-color: blue;
     width: 35%;
     height: 260px;
     border-radius: 20px;
@@ -34,7 +33,7 @@ body{
 }
 
 
-button {
+.pulsante1 {
     background-color: black;
     border-radius: 25%;
     margin-right: 10px;
@@ -48,16 +47,49 @@ button {
     z-index: 2;
     
 }
-p{
+.pulsante2{
+    background-color: black;
+    border-radius: 25%;
+    margin-right: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+    position: absolute;
+    right: 0%;
+    bottom: -200px;
+    transition: 0.3s;
+    border: none;
+    z-index: 2;
+}
+.pulsante3{
+    background-color: black;
+    border-radius: 25%;
+    margin-right: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+    position: absolute;
+    right: 25%;
+    bottom: -200px;
+    transition: 0.3s;
+    border: none;
+    z-index: 2;
+}
+.container-lamborghini p{
     font-size: 10pt;
     margin: 0%;
     padding: 5px;
     color: white;
 }
-.container-lamborghini:hover button{
+.container-lamborghini:hover .pulsante1{
     top: 10px;
 }
-button:hover{
-    border: 2px orange solid;
+.container-lamborghini:hover .pulsante2{
+    bottom: 10px;
 }
+.container-lamborghini:hover .pulsante3{
+    bottom: 10px;
+}
+button:hover{
+    border: 2px #f0880dff solid;
+}
+
 
