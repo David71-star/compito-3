@@ -1,0 +1,51 @@
+body{
+    background-color: black;
+}
+.container-lamborghini{
+    background-color: blue;
+    width: 35%;
+    height: 260px;
+    border-radius: 20px;
+    overflow: hidden;
+    position: relative;
+}
+.container-lamborghini img{
+    width: 100%; 
+}
+.sfumatura{
+    text-align: right;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+}
+.container-lamborghini:hover .sfumatura{
+    background: rgb(0,0,0);
+    background: linear-gradient(180deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0.7959558823529411) 100%);
+}
+.sfumatura button{
+    visibility: hidden;
+    
+}
+.container-lamborghini:hover .sfumatura button{
+    visibility: visible;
+     
+}
+
+
+button {
+    background-color: black;
+    border-color: white ;
+    border-radius: 25%;
+    margin-right: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+    
+}
+p{
+    font-size: 10pt;
+    margin: 0%;
+    padding: 5px;
+    color: white;
+}
+
