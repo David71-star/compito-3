@@ -28,8 +28,7 @@ body{
 }
 .container-lamborghini:hover .sfumatura button{
     visibility: visible;
-    
-     
+        
 }
 
 
@@ -89,6 +88,9 @@ body{
     bottom: 10px;
 }
 button:hover{
+    border: 2px #f0880dff solid;
+}
+.container-lamborghini:hover{
     border: 2px #f0880dff solid;
 }
 
